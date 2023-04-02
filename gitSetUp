@@ -71,4 +71,17 @@ To add branch
 To Switch in between brancks 
 #git checkout <BRANCH_NAME> // Now your are moved to the <BRANCH_NAME>
 
+To delete the branch 
+#git branch -d <BRANCH_NAME>	// normal delete tries to delete by looking fro the uncommited changes/unmerged to master
+
+To merge the branch in to a master
+STEP-1: Make sure that working brach changes are commited.
+
+STEP-2: Get back to master/branch we wanted to merge our code.by cmd 
+	#git branch  <BRANCH_NAME>
+STEP-3: use command to merge
+	#git merge <BRANCH_NAME>
+	
+To create BRANCH and move to BRANCH in single command
+#git checkout -b <BRANCH_NAME>
 
