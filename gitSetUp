@@ -1,0 +1,47 @@
+Download for Linux and Unix
+
+It is easiest to install Git on Linux using the preferred package manager of your Linux distribution. If you prefer to build from source, you can find tarballs on kernel.org. The latest version is 2.40.0.
+Debian/Ubuntu
+
+For the latest stable version for your release of Debian/Ubuntu
+# sudo apt-get install git
+
+For Ubuntu, this PPA provides the latest stable upstream Git version
+# sudo add-apt-repository ppa:git-core/ppa 
+# sudo apt update; apt install git 
+
+######################GIT Configuration###########################
+
+verify after installation with cmd
+# git --version
+
+To add user name to your git account 
+#git config --global user.name sunil
+
+To add email address to yur git account 
+#git config --global user.email vajjavenkatasunil@gmail.com
+
+To know the user name of the your git account
+#git config user.name
+
+To know the file status gives the files status and git regarding info of indivudual files
+#git status
+
+To add the file to git moitoring 
+#git add <filename>
+
+To remove from the git monotioring the file 
+#git rm --cached -f  <filename>
+
+
+To add the directory to git moitoring 
+#git add .
+
+To remove from the git monotioring the directory 
+#git rm --cached -f  -r .
+
+note:-
+-f = forecfully
+-r = recursively
+
+
