@@ -85,7 +85,13 @@ STEP-3: use command to merge
 To create BRANCH and move to BRANCH in single command
 #git checkout -b <BRANCH_NAME>
 
-
-
-key to commit
-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
+To push the branch to the github we faced a error of password over here resolved as
+STEP-1:- click on profile ICON goto settings page of git hub => Developer options
+STEP-2:- click on personal access tokens and go tocken classic
+STEP-3:- generate a token and generated tocken is used as PASSWORD to push the code to git hub.
+									key to commit
+							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
+							
+							
+							
+							
