@@ -44,4 +44,31 @@ note:-
 -f = forecfully
 -r = recursively
 
+To make commit in git 
+#git commit -m "ADD YOUR COMMENT TO THE COMMIT"
+
+To see the commit logs 
+#git log
+
+To get only a commit COMMENT in logs
+#git log --oneline
+
+To get back ro the COMMIT number 
+#git checkout <COMMIT_NUMBER>
+
+NOTE:- COMMIT_NUMBER can get it from the "git log" cmd
+
+To revert the to a specific COMMIT_NUMBER
+#git revert <COMMIT_NUMBER>
+
+
+To list all the Branchs created and WORKING branch is GREEN color highleted 
+#git branch -a
+
+To add branch 
+#git branch <BRANCH_NAME>
+
+To Switch in between brancks 
+#git checkout <BRANCH_NAME> // Now your are moved to the <BRANCH_NAME>
+
 
