@@ -89,9 +89,12 @@ To push the branch to the github we faced a error of password over here resolved
 STEP-1:- click on profile ICON goto settings page of git hub => Developer options
 STEP-2:- click on personal access tokens and go tocken classic
 STEP-3:- generate a token and generated tocken is used as PASSWORD to push the code to git hub.
-									key to commit
-							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
+							key to commit
+						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							
 							
 							
-							
-							
+sequence to be followed to upload to git hub
+#git pull https://github.com/sunil-venkata/test.git
+
+#git push --set-upstream  https://github.com/sunil-venkata/test.git <branch>
+					
